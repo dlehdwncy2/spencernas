@@ -19,7 +19,8 @@ print(Y)
 hypothesis = W * X + b
 
 # 손실 함수를 작성합니다.
-# mean(h - Y)^2 : 예측값과 실제값의 거리를 비용(손실) 함수로 정합니다.
+# mean(h - Y)^2 : 예측값과 실제값의 거리를 비용(손실) 함수로 정합니다. 
+#선형 회귀법
 cost = tf.reduce_mean(tf.square(hypothesis - Y))
 # 텐서플로우에 기본적으로 포함되어 있는 함수를 이용해 경사 하강법 최적화를 수행합니다.
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.1)
