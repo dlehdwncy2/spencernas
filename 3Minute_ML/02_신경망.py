@@ -64,10 +64,12 @@ sess = tf.Session()
 sess.run(init)
 
 for step in range(100):
-    sess.run(train_op, feed_dict={X: x_data, Y: y_data})
+    _,cost_val=sess.run([train_op,cost], feed_dict={X: x_data, Y: y_data})
+
 
     if (step + 1) % 10 == 0:
-        print(step + 1, sess.run(cost, feed_dict={X: x_data, Y: y_data}))
+        print("cost_val :",cost_val)
+        print("step : {} cost : {}".format(step + 1, sess.run(cost, feed_dict={X: x_data, Y: y_data})))
 
 
 #########
