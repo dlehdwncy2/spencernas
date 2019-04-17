@@ -87,3 +87,14 @@ print('실제값:', sess.run(target, feed_dict={Y: y_data}))
 is_correct = tf.equal(prediction, target)
 accuracy = tf.reduce_mean(tf.cast(is_correct, tf.float32))
 print('정확도: %.2f' % sess.run(accuracy * 100, feed_dict={X: x_data, Y: y_data}))
+
+
+
+
+print("Real test")
+test_x_input=np.array( [[1, 1]]) # [1,1] 는 [0,0,1] 포유류에 해당하므로 인덱스는 2를 나타내야됨
+dict=sess.run(model,feed_dict={X:test_x_input})
+dict_2=sess.run(prediction,feed_dict={X:test_x_input})
+
+print("Real Test : {} ".format(dict))
+print("Real Test : {} ".format(dict_2))
