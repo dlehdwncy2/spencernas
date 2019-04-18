@@ -79,22 +79,23 @@ for step in range(100):
 # tf.argmax: 예측값과 실제값의 행렬에서 tf.argmax 를 이용해 가장 큰 값을 가져옵니다.
 # 예) [[0 1 0] [1 0 0]] -> [1 0]
 #    [[0.2 0.7 0.1] [0.9 0.1 0.]] -> [1 0]
-prediction = tf.argmax(model, 1)
-target = tf.argmax(Y, 1)
-print('예측값:', sess.run(prediction, feed_dict={X: x_data}))
-print('실제값:', sess.run(target, feed_dict={Y: y_data}))
+prediction = tf.argmax(model, 1) #model은 확률 값
+target = tf.argmax(Y, 1) #Y는 라벨
+print('예측값:', sess.run(prediction, feed_dict={X: x_data})) #x 데이터를 넣어서 학습한걸로 분배시킴
+print('실제값:', sess.run(target, feed_dict={Y: y_data})) #Y데이터는 라벨 값
 
 is_correct = tf.equal(prediction, target)
 accuracy = tf.reduce_mean(tf.cast(is_correct, tf.float32))
+#x_input과 y_input을 비교함으로서 정확도 구함
 print('정확도: %.2f' % sess.run(accuracy * 100, feed_dict={X: x_data, Y: y_data}))
 
 
 
 
 print("Real test")
-test_x_input=np.array( [[1, 1]]) # [1,1] 는 [0,0,1] 포유류에 해당하므로 인덱스는 2를 나타내야됨
-dict=sess.run(model,feed_dict={X:test_x_input})
+test_x_input=np.array( [[1, 1]]) # [1,1] 는 [0,0,1] 포유류에 해당하므로 인덱스는 2를 나타내야 잘 학습한거
+dict=sess.run(model,feed_dict={X:test_x_input}) #
 dict_2=sess.run(prediction,feed_dict={X:test_x_input})
 
-print("Real Test : {} ".format(dict))
-print("Real Test : {} ".format(dict_2))
+print("Real Test : {} ".format(dict))# 각 요소 별 확률 출력
+print("Real Test : {} ".format(dict_2)) #요소 중 가장 큰 값 [인덱스] 출력
