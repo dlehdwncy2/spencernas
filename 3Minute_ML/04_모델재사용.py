@@ -48,11 +48,11 @@ sess = tf.Session()
 # global_variables 함수를 통해 앞서 정의하였던 변수들을 저장하거나 불러올 변수들로 설정합니다.
 saver = tf.train.Saver(tf.global_variables())
 
-ckpt = tf.train.get_checkpoint_state('./model')
-if ckpt and tf.train.checkpoint_exists(ckpt.model_checkpoint_path):
-    saver.restore(sess, ckpt.model_checkpoint_path)
+ckpt = tf.train.get_checkpoint_state('./model') #./model 디렉터리에 기존에 학습해둔 모델이 있는지 확인
+if ckpt and tf.train.checkpoint_exists(ckpt.model_checkpoint_path): #기존 학습 모델 확인
+    saver.restore(sess, ckpt.model_checkpoint_path) #retore를 통해 학습된 값 불러옴
 else:
-    sess.run(tf.global_variables_initializer())
+    sess.run(tf.global_variables_initializer()) #없을 시 새로 초기화
 
 # 최적화 진행
 for step in range(2):
@@ -61,7 +61,7 @@ for step in range(2):
     print('Step: %d, ' % sess.run(global_step),
           'Cost: %.3f' % sess.run(cost, feed_dict={X: x_data, Y: y_data}))
 
-# 최적화가 끝난 뒤, 변수를 저장합니다.
+# 최적화 및 학습이 끝난 뒤, 변수를 저장합니다.
 saver.save(sess, './model/dnn.ckpt', global_step=global_step)
 
 #########
