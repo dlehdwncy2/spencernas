@@ -85,6 +85,7 @@ is_correct = tf.equal(tf.argmax(model, 1), tf.argmax(Y, 1))
 #equal 함수를 통해 예측 값과 실제 값이 '같은 지 확인'
 
 accuracy = tf.reduce_mean(tf.cast(is_correct, tf.float32))
+#cast 함수를 통해서 is_correct 결과 값을 0 혹은 1로 변환하여 reduce_mean을 통해 평균을 구하면 정확도에 대한 확률이 나옴
 
 print('정확도:', sess.run(accuracy,
                        feed_dict={X: mnist.test.images,
