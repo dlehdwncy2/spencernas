@@ -1,7 +1,8 @@
 import  os , sys, cv2
 from PIL import Image
 import pefile
-
+import binascii
+import pandas as pd
 
 def getBinaryData(filename):
     binaryValues = []
@@ -9,11 +10,10 @@ def getBinaryData(filename):
     data = file.read(1)  # read byte by byte
     while data !=b"":
         try:
-            binaryValues.append(ord(data))  # store value to array
+            binaryValues.append(chr(ord(data)))  # store value to array
         except TypeError:
             pass
         data = file.read(1)  # get next byte value
-
 
     return binaryValues
 
@@ -55,28 +55,39 @@ def createGreyScaleImageSpecificWith(dataSet,outputfilename,width=0):
 
 class parshing_image():
     def __init__(self):
-        if not (os.path.isdir("first_product")):
-            os.makedirs("first_product")
-        self.first_product_location = "first_product"       # [입력] 악성 코드의 디렉토리
+        if not (os.path.isdir("1_first_product")):
+            os.makedirs("1_first_product")
+        self.first_product_location = "1_first_product"       # [입력] 악성 코드의 디렉토리
 
-        if not (os.path.isdir("second_product")):
-            os.makedirs("second_product")
-        self.second_product_location = "second_product"           # [출력] 첫번째 결과물 저장 장소 [ 악성코드 -> BIMAP ]
+        if not (os.path.isdir("2_second_product")):
+            os.makedirs("2_second_product")
+        self.second_product_location = "2_second_product"           # [출력] 첫번째 결과물 저장 장소 [ 악성코드 -> BIMAP ]
 
-        if not (os.path.isdir("result_location")):
-            os.makedirs("result_location")
-        self.second_result_location = "result_location"          # [출력] 두번째 결과물 저장 장소 [ BITMAP -> 파싱 결과 ]
+        if not (os.path.isdir("3_result_location")):
+            os.makedirs("3_result_location")
+        self.second_result_location = "3_result_location"          # [출력] 두번째 결과물 저장 장소 [ BITMAP -> 파싱 결과 ]
+
 
     def signature_confirm(self,dirname):
         file_list=os.listdir(dirname)
+        mz_signature='MZ'
+        pe_signature="PE"
 
         for file_name in file_list:
+            full_file_name=os.path.join(dirname,file_name)
             try:
                 #PE인지 아닌지 확인
                 pe=pefile.PE(os.path.join(dirname,file_name))
                 pe.close()
+                continue
             except:
-                os.remove(os.path.join(dirname,file_name))
+                buf=getBinaryData(full_file_name)
+                print(buf[:30])
+                print(buf[80:110])
+                if mz_signature in buf[:30]:
+                    if pe_signature in buf[80:110]: continue
+
+                else: os.remove(os.path.join(dirname,file_name))
 
 
     def extratcion_bitmap(self, dirname):
@@ -109,12 +120,15 @@ class parshing_image():
             image.save(image_save_full_path)
             r_handle.close()
             count = count + 1
+            os.remove(full_filename)
 
-    def learning_image(self,dirname):
+    def learning_image(self,dirname,index_num):
         count = 0
         Width = 256
         Height = 256
         filenames = os.listdir(dirname)
+
+        image_save_full_path_list=[]
         for filename in filenames:
             full_filename = os.path.join(dirname, filename)
             if(full_filename.find('bmp')!=-1):
@@ -139,25 +153,36 @@ class parshing_image():
                         c[i] = 0
                 image = Image.frombytes('L', (Width, Height), bytes(c))
                 image_save_full_path=os.path.join(self.second_result_location,filename)
+                image_save_full_path_list.append([image_save_full_path,index_num])
                 image.save(image_save_full_path)
+                os.remove(full_filename)
 
+        return image_save_full_path_list
 
+    def csv_save(self,image_save_full_path_list):
+        pathfile="./group_index_csv"
+        files_present=os.path.isfile(pathfile)
+        dataframe = pd.DataFrame(image_save_full_path_list)
+
+        if not files_present:
+            dataframe.to_csv(pathfile,mode='w',header=False,index=False)
+        else:
+            dataframe.to_csv(pathfile,mode='a',header=False,index=False)
 
 if __name__=="__main__":
-    file_full_path="D:\\Allinone\\BOB\\Python\\Tensflow\\PEview.exe"
-    path=os.path.dirname(file_full_path)
-    base_name=os.path.splitext(os.path.basename(file_full_path))[0]
-    outputFilename=os.path.join(path,base_name)
+    test=getBinaryData("D:\\Allinone\\BOB\\Python\\Tensflow\\TF\\convert_image\\1_first_product\\F8A22D446CB17EEF4E9855F92ED6D26ECDF8A0666A82116A986CC50733F0DD86")
+    print(test[:150])
 
-    #binaryData=getBinaryData(file_full_path)
-    #createGreyScaleImageSpecificWith(binaryData, outputFilename)
+    print("Group Index Number : ")
+    index_num=int(input())
 
     p_file=parshing_image()
 
     p_file.signature_confirm(p_file.first_product_location)  # EXE 파일 검증
 
     p_file.extratcion_bitmap(p_file.first_product_location) # bitmap extraction
-    print("extratcion_bitmap sccess")
 
-    p_file.learning_image(p_file.second_product_location)     # bitmap_parshing
-    print("learning_image success")
+    image_save_full_path_list=p_file.learning_image(p_file.second_product_location,index_num)     # bitmap_parshing
+
+
+    p_file.csv_save(image_save_full_path_list)

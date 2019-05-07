@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d54d15e-e4b5-412d-9517-4a2a3d3645c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/3Minute_ML/07_2_High_API_CNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3Minute_ML/08_Autoencoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3Minute_ML/09_2_GAN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3Minute_ML/09_Gan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3Minute_ML/10_RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3Minute_ML/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GAN/convert_gray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML_Malware/ML_Data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML_Malware/ML_Train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML_Malware/Train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML_Malware/pe_parser/Data_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convert_image/Convert_Image_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_void.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/01 - Why TensorFlow/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/01 - Why TensorFlow/images/fig0101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/01 - Why TensorFlow/images/fig0102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/01 - Why TensorFlow/images/fig0103.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/01 - Why TensorFlow/images/fig0104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/01 - Why TensorFlow/images/fig0105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/02 - Preparation/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/02 - Preparation/images/fig0201.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/02 - Preparation/images/fig0202.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/02 - Preparation/images/fig0203.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/03 - TensorFlow Basic/01 - Basic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/03 - TensorFlow Basic/02 - Variable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/03 - TensorFlow Basic/03 - Linear Regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/04 - Neural Network Basic/01 - Classification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/04 - Neural Network Basic/02 - Deep NN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/04 - Neural Network Basic/03 - Word2Vec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/04 - Neural Network Basic/logs/events.out.tfevents.1483026766.mpr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/05 - TensorBoard, Saver/01 - Saver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/05 - TensorBoard, Saver/02 - TensorBoard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/05 - TensorBoard, Saver/03 - TensorBoard2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/05 - TensorBoard, Saver/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/05 - TensorBoard, Saver/logs/events.out.tfevents.1491717195.mpr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/05 - TensorBoard, Saver/model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/05 - TensorBoard, Saver/model/dnn.ckpt-100.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/05 - TensorBoard, Saver/model/dnn.ckpt-100.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/05 - TensorBoard, Saver/model/dnn.ckpt-100.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/06 - MNIST/01 - MNIST.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/06 - MNIST/02 - Dropout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/07 - CNN/01 - CNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/07 - CNN/02 - tf.layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/08 - Autoencoder/01 - Autoencoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/01 - GAN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/02 - GAN2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples/000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples/009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples/019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples/029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples/039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples/049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples/059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples/069.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples/079.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples/089.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples/099.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples2/000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples2/009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples2/019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples2/029.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples2/039.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples2/049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples2/059.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples2/069.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples2/079.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples2/089.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/09 - GAN/samples2/099.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/01 - MNIST.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/02 - Autocomplete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/03 - Seq2Seq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/chat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/data/chat.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/data/chat.voc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/dialog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/logs/events.out.tfevents.1512710234.AL01286619.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/model/conversation.ckpt-10000.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/model/conversation.ckpt-10000.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/model/conversation.ckpt-10000.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/10 - RNN/ChatBot/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/11 - Inception/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/11 - Inception/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/11 - Inception/retrain.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/agent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/logs/events.out.tfevents.1497009719.mpr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1013377.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1013377.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1013377.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1092695.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1092695.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1092695.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1205475.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1205475.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1205475.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1340046.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1340046.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1340046.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1708830.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1708830.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/model/dqn.ckpt-1708830.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/screenshot_game.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/12 - DQN/screenshot_tensorboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/book_cover.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/mnist/data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/mnist/data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/mnist/data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/TensorFlow-Tutorials-master/mnist/data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/mnist/data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/mnist/data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/mnist/data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3Minute_ML/mnist/data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MINIST_DATA_Deep_Learning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST_data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST_data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Perceptron/Percerptron.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_기초/01_함수사용법.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_기초/03_GAN_Deeplearning.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_기초/AI_구현_예제.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_기초/AI_구현_예제2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_기초/K_means.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_기초/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_기초/price data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_기초/saved.cpkt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_기초/saved.cpkt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TF_기초/saved.cpkt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/convert_image/Convert_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/convert_image/Convert_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/convert_image/first_product/PEview.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/convert_image/result_location/PEview.exe.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/convert_image/second_product/PEview.exe.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist/data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist/data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist/data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mnist/data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reconstructed_mnist_image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_2_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_study.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/선형회귀/Learning_Basic.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/수치미분/수치미분.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="501689405">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="group_index_csv" value="1" />
+          <entry key="py" value="51" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="860" />
+          <entry key="py" value="3806" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="4666" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/pe_analyzer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="687" selection-start-line="687" selection-end-line="689" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ML_Malware/ML_Train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-306">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/Data_base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="20" column="94" lean-forward="true" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
+              <folding>
+                <element signature="e#2#15#0" expanded="true" />
+                <marker date="1557218086325" expanded="true" signature="135:285" ph="..." />
+                <marker date="1557218086325" expanded="true" signature="283:285" ph="..." />
+                <marker date="1557218086325" expanded="true" signature="304:1653" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>section_characteristics</find>
+      <find>app.run</find>
+      <find>pe_sha256</find>
+      <find>sha256_data</find>
+      <find>pack</find>
+      <find>tiny</find>
+      <find>ssdeep</find>
+      <find>pdb</find>
+      <find>None</find>
+      <find>try:</find>
+      <find>sys</find>
+      <find>exit</find>
+      <find>MZ Si</find>
+      <find>print</find>
+      <find>Header is None</find>
+      <find>PESignature</find>
+      <find>open</find>
+      <find>train_step</find>
+      <find>x_dev</find>
+      <find>pe_analyzer</find>
+      <find>entropy</find>
+      <find>dot</find>
+      <find>mutex</find>
+      <find>imphash</find>
+      <find>section</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ML_Malware/Train.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/Data_base.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/pe_parser/new_pe_parser.py" />
+        <option value="$PROJECT_DIR$/convert_image/analysePE.py" />
+        <option value="$PROJECT_DIR$/convert_image/classPEfile.py" />
+        <option value="$PROJECT_DIR$/convert_image/PE_parser_full.py" />
+        <option value="$PROJECT_DIR$/convert_image/PEparser-master/src/PEParser.py" />
+        <option value="$PROJECT_DIR$/test_void.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/ML_Train.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/ML_Data.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/pe_parser/Str_Ent.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/pe_parser/pe_analyzer.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/pe_parser/Data_base.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="458" />
+    <option name="y" value="-1101" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TF" type="462c0819:PsiDirectoryNode" />
+              <item name="convert_image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TF" type="462c0819:PsiDirectoryNode" />
+              <item name="ML_Malware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TF" type="462c0819:PsiDirectoryNode" />
+              <item name="ML_Malware" type="462c0819:PsiDirectoryNode" />
+              <item name="pe_parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Allinone\BOB\Python\Tensflow\TF\ML_Malware\pe_parser" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Data_base">
+    <configuration name="Data_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Malware/pe_parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_Malware/pe_parser/Data_base.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ML_Data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Malware" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_Malware/ML_Data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Str_Ent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Malware/pe_parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_Malware/pe_parser/Str_Ent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="new_pe_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Malware/pe_parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_Malware/pe_parser/new_pe_parser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pe_analyzer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Malware/pe_parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_Malware/pe_parser/pe_analyzer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.new_pe_parser" />
+      <item itemvalue="Python.Str_Ent" />
+      <item itemvalue="Python.pe_analyzer" />
+      <item itemvalue="Python.ML_Data" />
+      <item itemvalue="Python.Data_base" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Data_base" />
+        <item itemvalue="Python.pe_analyzer" />
+        <item itemvalue="Python.ML_Data" />
+        <item itemvalue="Python.Str_Ent" />
+        <item itemvalue="Python.new_pe_parser" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d54d15e-e4b5-412d-9517-4a2a3d3645c7" name="Default Changelist" comment="" />
+      <created>1557054786758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557054786758</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-1088" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13646056" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.19652551" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50159913" side_tool="true" weight="0.32356134" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32681867" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Python Console" order="5" sideWeight="0.49840087" weight="0.32356134" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49946696" visible="true" weight="0.32681867" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3995657" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.20942983" />
+      <window_info anchor="right" id="R Graphics" order="0" />
+      <window_info anchor="right" id="R Packages" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.065565035" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.19652551" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32681867" />
+      <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49946696" weight="0.32356134" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.28121606" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.20942983" />
+      <window_info anchor="right" id="R Graphics" order="0" />
+      <window_info anchor="right" id="R Packages" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ML_Malware/pe_parser/pe_analyzer.py</url>
+          <line>562</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/pe_charateristics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_image/Convert_image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_image/group_index_csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_image/classPEfile.py" />
+    <entry file="file://$PROJECT_DIR$/convert_image/analysePE.py" />
+    <entry file="file://$PROJECT_DIR$/convert_image/PE_parser_full.py" />
+    <entry file="file://$PROJECT_DIR$/convert_image/peparser.py" />
+    <entry file="file://$PROJECT_DIR$/convert_image/PEparser-master/src/PEParser.py" />
+    <entry file="file://$PROJECT_DIR$/convert_image/PEparser-master/src/peheader.py" />
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/Mal_Convert_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="77" column="35" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/Train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/text_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/data_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-833">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_image/Convert_Image_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3Minute_ML/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/mutex_strings_lists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/ML_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="105" column="48" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1557214302121" expanded="true" signature="3591:3606" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_void.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="13" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/Str_Ent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/web_input_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/new_pe_parser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="640" lean-forward="true" selection-start-line="640" selection-end-line="640" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/ML_Train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/pe_analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="687" selection-start-line="687" selection-end-line="689" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/Data_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="20" column="94" lean-forward="true" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
+          <folding>
+            <element signature="e#2#15#0" expanded="true" />
+            <marker date="1557218086325" expanded="true" signature="135:285" ph="..." />
+            <marker date="1557218086325" expanded="true" signature="283:285" ph="..." />
+            <marker date="1557218086325" expanded="true" signature="304:1653" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
