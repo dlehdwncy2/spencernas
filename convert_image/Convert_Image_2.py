@@ -52,6 +52,9 @@ class convert_binary_to_image:
         image.save(imagename)
         #image.show()
 
+
+
+
     def signature_confirm(self,dirname):
         file_list=os.listdir(dirname)
         mz_signature='MZ'
@@ -60,16 +63,25 @@ class convert_binary_to_image:
         for file_name in file_list:
             full_file_name=os.path.join(dirname,file_name)
             try:
-                pe=pefile.PE(os.path.join(dirname,file_name))
+                pe=pefile.PE(full_file_name)
                 pe.close()
                 continue
             except:
-                buf=self.binary_value_get(full_file_name)
-                if mz_signature in buf[:30]:
-                    if pe_signature in buf[80:110]: continue
-                else: os.remove(os.path.join(dirname,file_name))
+                signature = []
 
-    def extratcion_bitmap(self, dirname,index_num):
+                with open(full_file_name, "rb") as f:
+                    for i in range(0, 2):
+                        byte = f.read(1)
+                        signature.append(byte.decode(errors='replace').strip())
+
+                f.close()
+                if 'M' in signature:
+                    if 'Z' in signature:
+                        pass
+                    else:
+                        print("no")
+
+    def extratcion_bitmap(self, dirname):
         filenames = os.listdir(dirname)
         extraction_width = 100
 
@@ -117,7 +129,7 @@ class convert_binary_to_image:
                 if c[i] > 10:c[i] = 255
                 else:c[i] = 0
             image = Image.frombytes('L', (Lean_Width, Lean_Height), bytes(c))
-            image_save_full_path_list.append([image_save_full_path, index_num])
+            image_save_full_path_list.append([image_save_full_path])
             image.save(image_save_full_path)
 
         return image_save_full_path_list
@@ -135,12 +147,10 @@ class convert_binary_to_image:
 
 if __name__=="__main__":
     p_file=convert_binary_to_image()
-    print("Group Index Number : ")
-    index_num=int(input())
 
     p_file.signature_confirm(p_file.first_product_location)  # EXE 파일 검증
 
-    image_save_full_path_list=p_file.extratcion_bitmap(p_file.first_product_location,index_num) # bitmap extraction
+    image_save_full_path_list=p_file.extratcion_bitmap(p_file.first_product_location) # bitmap extraction
 
 
-    p_file.csv_save(image_save_full_path_list)
+    #p_file.csv_save(image_save_full_path_list)

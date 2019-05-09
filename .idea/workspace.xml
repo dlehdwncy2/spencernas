@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d54d15e-e4b5-412d-9517-4a2a3d3645c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/TF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ML_Malware/Cimage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Malware/Data_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Malware/Data_base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ML_Malware/ML_Train.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Malware/ML_Train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML_Malware/pe_parser/Data_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Malware/pe_parser/Data_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Malware/Train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Malware/data_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Malware/data_helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Malware/eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Malware/eval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Malware/pe_analyzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML_Malware/pe_analyzer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML_Malware/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/convert_image/Convert_Image_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/convert_image/Convert_Image_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,70 +36,133 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="DESKTOP-QOJO7Q6" value="1" />
           <entry key="group_index_csv" value="1" />
-          <entry key="py" value="54" />
+          <entry key="py" value="70" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="54" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="70" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1014" />
-          <entry key="py" value="4945" />
+          <entry key="Python Console" value="1575" />
+          <entry key="py" value="6501" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5959" />
+          <entry key="Python" value="8076" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ML_Malware/ML_Train.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding>
-                <marker date="1557306674519" expanded="true" signature="1660:2300" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/pe_analyzer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="534" column="24" selection-start-line="534" selection-start-column="24" selection-end-line="534" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/Data_base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1557306531925" expanded="true" signature="775:776" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ML_Malware/Cimage.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="278">
+                  <caret line="108" column="46" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
+                  <folding>
+                    <element signature="e#0#21#0" expanded="true" />
+                    <marker date="1557424778538" expanded="true" signature="191:198" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ML_Malware/pe_analyzer.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1460">
+                  <caret line="681" column="30" selection-start-line="681" selection-start-column="30" selection-end-line="681" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ML_Malware/Data_base.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="363">
+                  <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                    <marker date="1557424722961" expanded="true" signature="777:779" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ML_Malware/eval.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1666">
+                  <caret line="98" column="30" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#24#47#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ML_Malware/data_helpers.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-172">
+                  <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ML_Malware/ML_Train.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="356">
+                  <caret line="343" lean-forward="true" selection-start-line="343" selection-end-line="343" />
+                  <folding>
+                    <element signature="e#17#27#0" expanded="true" />
+                    <marker date="1557426066495" expanded="true" signature="1773:2497" ph="..." />
+                    <marker date="1557426066495" expanded="true" signature="4466:4475" ph="..." />
+                    <marker date="1557426066495" expanded="true" signature="12642:13810" ph="..." />
+                    <marker date="1557426066495" expanded="true" signature="13856:13857" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/convert_image/Convert_Image_2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="62">
+                  <caret line="64" selection-start-line="64" selection-end-line="81" selection-end-column="35" />
+                  <folding>
+                    <element signature="e#0#21#0" expanded="true" />
+                    <marker date="1557424578614" expanded="true" signature="1592:1600" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,13 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>section_characteristics</find>
-      <find>app.run</find>
-      <find>pe_sha256</find>
-      <find>sha256_data</find>
-      <find>pack</find>
-      <find>tiny</find>
-      <find>ssdeep</find>
       <find>pdb</find>
       <find>None</find>
       <find>try:</find>
@@ -129,8 +190,19 @@
       <find>dot</find>
       <find>mutex</find>
       <find>imphash</find>
-      <find>section</find>
       <find>section_data</find>
+      <find>vocabulary</find>
+      <find>load_data</find>
+      <find>test_iter</find>
+      <find>section</find>
+      <find>colum_list</find>
+      <find>pe_Subsystem</find>
+      <find>binary_value_get</find>
+      <find>succesd</find>
+      <find>createGreyScaleImageSpecificWith</find>
+      <find>save</find>
+      <find>remove</find>
+      <find>num_epochs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,7 +212,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ML_Malware/Train.py" />
-        <option value="$PROJECT_DIR$/ML_Malware/Data_base.py" />
         <option value="$PROJECT_DIR$/ML_Malware/pe_parser/new_pe_parser.py" />
         <option value="$PROJECT_DIR$/convert_image/analysePE.py" />
         <option value="$PROJECT_DIR$/convert_image/classPEfile.py" />
@@ -151,13 +222,19 @@
         <option value="$PROJECT_DIR$/ML_Malware/pe_parser/Str_Ent.py" />
         <option value="$PROJECT_DIR$/ML_Malware/pe_parser/pe_analyzer.py" />
         <option value="$PROJECT_DIR$/ML_Malware/pe_parser/Data_base.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/pe_analyzer.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/data_helpers.py" />
+        <option value="$PROJECT_DIR$/convert_image/Convert_Image_2.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/Data_base.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/Cimage.py" />
+        <option value="$PROJECT_DIR$/ML_Malware/eval.py" />
         <option value="$PROJECT_DIR$/ML_Malware/ML_Train.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-4" />
-    <option name="y" value="-1088" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -166,6 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,24 +254,33 @@
             <path>
               <item name="TF" type="b2602c69:ProjectViewProjectNode" />
               <item name="TF" type="462c0819:PsiDirectoryNode" />
+              <item name="3Minute_ML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TF" type="462c0819:PsiDirectoryNode" />
               <item name="convert_image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TF" type="b2602c69:ProjectViewProjectNode" />
               <item name="TF" type="462c0819:PsiDirectoryNode" />
+              <item name="GAN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TF" type="462c0819:PsiDirectoryNode" />
               <item name="ML_Malware" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TF" type="b2602c69:ProjectViewProjectNode" />
               <item name="TF" type="462c0819:PsiDirectoryNode" />
               <item name="ML_Malware" type="462c0819:PsiDirectoryNode" />
-              <item name="pe_parser" type="462c0819:PsiDirectoryNode" />
+              <item name="runs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,6 +305,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.ML_Train">
+    <configuration name="Convert_Image_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TF" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/convert_image" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/convert_image/Convert_Image_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Data_base" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TF" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -231,27 +339,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\Allinone\BOB\Python\Tensflow\TF\ML_Malware\Data_base.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ML_Data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TF" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Malware" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_Malware/ML_Data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -281,7 +368,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Str_Ent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TF" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,11 +376,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Malware/pe_parser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Malware" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Allinone\BOB\Python\Tensflow\TF\ML_Malware\Str_Ent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML_Malware/eval.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,7 +389,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pe_analyzer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TF" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,11 +397,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML_Malware/pe_parser" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cnn-text-classification-pytorch-master" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Allinone\BOB\Python\Tensflow\TF\ML_Malware\pe_analyzer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn-text-classification-pytorch-master/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,19 +411,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Str_Ent" />
-      <item itemvalue="Python.pe_analyzer" />
-      <item itemvalue="Python.ML_Data" />
       <item itemvalue="Python.Data_base" />
       <item itemvalue="Python.ML_Train" />
+      <item itemvalue="Python.eval" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.Convert_Image_2" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.ML_Train" />
+        <item itemvalue="Python.Convert_Image_2" />
+        <item itemvalue="Python.eval" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.Data_base" />
-        <item itemvalue="Python.pe_analyzer" />
-        <item itemvalue="Python.ML_Data" />
-        <item itemvalue="Python.Str_Ent" />
       </list>
     </recent_temporary>
   </component>
@@ -363,19 +450,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-1088" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14658849" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.046375267" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.19652551" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.19435397" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50159913" side_tool="true" weight="0.32356134" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32681867" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="5" sideWeight="0.49840087" weight="0.3213898" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49946696" weight="0.32681867" />
+      <window_info anchor="bottom" id="Python Console" order="5" sideWeight="0.49840087" weight="0.320304" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49946696" visible="true" weight="0.24972856" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -388,16 +475,16 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.065565035" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15778251" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.19652551" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50053304" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.19435397" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50159913" side_tool="true" weight="0.32356134" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32681867" />
-      <window_info anchor="bottom" id="Python Console" order="3" sideWeight="0.49946696" weight="0.32356134" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.28121606" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Python Console" order="5" sideWeight="0.49840087" weight="0.320304" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49946696" visible="true" weight="0.3257329" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.20942983" />
@@ -423,11 +510,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/pe_charateristics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/pe_charateristics.py" />
     <entry file="file://$PROJECT_DIR$/convert_image/Convert_image.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -444,56 +527,11 @@
     <entry file="file://$PROJECT_DIR$/convert_image/peparser.py" />
     <entry file="file://$PROJECT_DIR$/convert_image/PEparser-master/src/PEParser.py" />
     <entry file="file://$PROJECT_DIR$/convert_image/PEparser-master/src/peheader.py" />
-    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/Mal_Convert_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="77" column="35" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Malware/Train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3213">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Malware/text_cnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Malware/data_helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Malware/eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-833">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/convert_image/Convert_Image_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/Mal_Convert_test.py" />
     <entry file="file://$PROJECT_DIR$/3Minute_ML/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/mutex_strings_lists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/mutex_strings_lists.txt" />
     <entry file="file://$PROJECT_DIR$/ML_Malware/ML_Data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -508,20 +546,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/Str_Ent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/web_input_process.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/Str_Ent.py" />
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/web_input_process.py" />
     <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/new_pe_parser.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pandas/io/parsers.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -530,21 +556,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/Data_base.py">
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/Data_base.py" />
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/pe_analyzer.py" />
+    <entry file="file://$PROJECT_DIR$/CNN/07_2_CNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state>
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1557306531925" expanded="true" signature="775:776" ph="..." />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_parser/pe_analyzer.py">
+    <entry file="file://$PROJECT_DIR$/cnn-text-classification-pytorch-master/mydatasets.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="534" column="24" selection-start-line="534" selection-start-column="24" selection-end-line="534" selection-end-column="24" />
+        <state relative-caret-position="-1399">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn-text-classification-pytorch-master/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1314">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/text_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/predict.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-685" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/langconv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1683" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/Train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3094">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/runs/1557413982/summaries/train/events.out.tfevents.1557413982.DESKTOP-QOJO7Q6">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_image/Convert_Image_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="64" selection-start-line="64" selection-end-line="81" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1557424578614" expanded="true" signature="1592:1600" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/Cimage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="108" column="46" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1557424778538" expanded="true" signature="191:198" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/Data_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1557424722961" expanded="true" signature="777:779" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" column="30" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/data_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="81" column="54" selection-start-line="81" selection-start-column="54" selection-end-line="81" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML_Malware/pe_analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="681" column="30" selection-start-line="681" selection-start-column="30" selection-end-line="681" selection-end-column="30" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -553,10 +675,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ML_Malware/ML_Train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="356">
+          <caret line="343" lean-forward="true" selection-start-line="343" selection-end-line="343" />
           <folding>
-            <marker date="1557306674519" expanded="true" signature="1660:2300" ph="..." />
+            <element signature="e#17#27#0" expanded="true" />
+            <marker date="1557426066495" expanded="true" signature="1773:2497" ph="..." />
+            <marker date="1557426066495" expanded="true" signature="4466:4475" ph="..." />
+            <marker date="1557426066495" expanded="true" signature="12642:13810" ph="..." />
+            <marker date="1557426066495" expanded="true" signature="13856:13857" ph="..." />
           </folding>
         </state>
       </provider>
